@@ -41,40 +41,70 @@ const productListWithImages = productList.map((product, k) => {
   }
   return finalProduct;
 });
-// to cloud database
-const url = 'mongodb+srv://root:rE9EvYIQe91rR9mt@cluster0-o5gfo.mongodb.net/Images?retryWrites=true&w=majority';
-//to local database
-// const url = 'mongodb://localhost/Images';
-mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true});
-var db = mongoose.connection;
 
-db.dropDatabase(function(err, result) {
-  console.log('collection dropped');
-  db.on('error', console.error.bind(console, 'connection error:'));
+const mongoURI = 'mongodb://localhost:27017/imageservice';
 
+const db = mongoose.connect(mongoURI, { useNewUrlParser: true }, (err, result) => {
+  mongoose.connection.db.dropDatabase();
 
-    var imageSchema = new mongoose.Schema({
-      productNumber: String,
-      imageUrls: {
-        type: Array,
-        default: undefined
-      },
-      imageThumbnailUrls: {
-        type: Array,
-        default: undefined,
-      }
-    });
-    var Image = mongoose.model('images', imageSchema);
-    Image.insertMany(productListWithImages, (err, response) => {
-      if (err) {
-        console.log('error', err);
-      } else {
-        db.close();
-      }
-    });
+  var imageSchema = new mongoose.Schema({
+    productNumber: String,
+    imageUrls: {
+      type: Array,
+      default: undefined
+    },
 
+    imageThumbnailUrls: {
+      type: Array,
+      default: undefined,
+    }
+  });
 
+  var Image = mongoose.model('images', imageSchema);
+  Image.insertMany(productListWithImages, (err, response) => {
+    if (err) {
+      console.log('error', err);
+    } else {
+      db.close();
+    }
+  });
 });
+
+db
+  .then(db => console.log(`Connected to: ${mongoURI}`))
+  .catch(err => {
+    console.log(`There was a problem connecting to mongo at: ${mongoURI}`)
+    console.log(err);
+  });
+
+
+// db.dropDatabase(function(err, result) {
+//   console.log('collection dropped');
+//   db.on('error', console.error.bind(console, 'connection error:'));
+
+
+//     var imageSchema = new mongoose.Schema({
+//       productNumber: String,
+//       imageUrls: {
+//         type: Array,
+//         default: undefined
+//       },
+//       imageThumbnailUrls: {
+//         type: Array,
+//         default: undefined,
+//       }
+//     });
+//     var Image = mongoose.model('images', imageSchema);
+//     Image.insertMany(productListWithImages, (err, response) => {
+//       if (err) {
+//         console.log('error', err);
+//       } else {
+//         db.close();
+//       }
+//     });
+
+
+// });
 
 
 

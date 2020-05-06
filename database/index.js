@@ -1,15 +1,19 @@
 const mongoose = require('mongoose');
 
-const url = 'mongodb+srv://root:rE9EvYIQe91rR9mt@cluster0-o5gfo.mongodb.net/Images?retryWrites=true&w=majority';
+const mongoURI = 'mongodb://localhost:27017/imageservice';
 
-mongoose.connect(url, {useNewUrlParser: true, useUnifiedTopology: true}, () => {
-// console.log('mongoose is connected');
-});
+const db = mongoose.connect(mongoURI, { useNewUrlParser: true });
 
-const db = mongoose.connection;
+db
+  .then(db => console.log(`Connected to: ${mongoURI}`))
+  .catch(err => {
+    console.log(`There was a problem connecting to mongo at: ${mongoURI}`)
+    console.log(err);
+  });
+
 
 var imageSchema = new mongoose.Schema({
-  productId: String,
+  productNumber: String,
   imageUrls: {
     type: Array,
     default: undefined
@@ -20,17 +24,62 @@ var Image = mongoose.model('Image', imageSchema);
 
 // db.on('error', console.error.bind(console, 'connection error:'));
 
-const productQuery = (object, callback) => {
-  Image.findOne(object, (err, product) => {
+const createImage = (product, callback) => {
+  Image.create(product, function(err, result){
     if (err) {
       callback(err, null);
-
     } else {
-      callback(null, product);
+      callback(null, result);
+    }
+  })
+};
+
+const getImage = (product, callback) => {
+  Image.find(product, (err, result) => {
+    if (err) {
+      callback(err, null);
+    } else {
+      console.log(result)
+      callback(null, result);
     }
   });
 };
 
+const updateImage = (product, newProduct, callback) => {
 
+  Image.findOne(product, function(err, result) {
+    if(!err) {
+      if(!result) {
+        callback(err, null)
+      }
+      newProduct = JSON.parse(newProduct)
+      result = new Image(newProduct)
+      result.save(function(err) {
+          if(!err) {
+            callback(null, result)
+          }
+          else {
+            callback(err, null);
+          }
+      });
+    }
+  });
+};
 
-module.exports = {db, productQuery};
+const deleteImage = (product, callback) => {
+  Image.deleteOne(product, (err, result) => {
+    if (err) {
+      callback(err, null);
+    } else {
+      callback(null, result);
+    }
+  });
+};
+
+module.exports = {
+  db,
+  createImage,
+  getImage,
+  updateImage,
+  deleteImage
+};

@@ -1,4 +1,4 @@
-# Dustins-FEC-Service
+# Iris-sdc-service
 Service Repo For FEC
 # Project Name
 
@@ -20,7 +20,7 @@ Service Repo For FEC
 ## Usage
 
 > Settings:
-  - port: 8000
+  - port: 1234
   - htmlId: 'images'
   - content delivery endpoint: '/dist/bundle.js'
 

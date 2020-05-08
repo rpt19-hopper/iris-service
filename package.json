@@ -4,7 +4,7 @@
   "description": "Service Repo For FEC name: etsycloneimageservice",
   "main": "server/index.js",
   "scripts": {
-    "seed": "node ./database/seed.js",
+    "seed": "node ./database/sdc-seed-json.js",
     "start": "concurrently --kill-others \"npm run server-dev\" \"npm run build-dev\"",
     "server-dev": "nodemon ./server/index.js",
     "server-prod": "node ./server/index.js",

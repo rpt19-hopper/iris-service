@@ -1,4 +1,4 @@
-# Dustins-FEC-Service
+# Iris-sdc-service
 Service Repo For FEC
 # Project Name
 
@@ -20,7 +20,7 @@ Service Repo For FEC
 ## Usage
 
 > Settings:
-  - port: 8000
+  - port: 1234
   - htmlId: 'images'
   - content delivery endpoint: '/dist/bundle.js'
 
@@ -36,6 +36,17 @@ Service Repo For FEC
 
   API endpoints:
     - '/mainImage/:productNumber'
+    GET
+    - /mainImage/:productNumber gets a product from database
+    PUT
+    - /mainImage/:productNumber must pass updated object WITH PRODUCT NUMBER in body of the request
+    i.e {"productNumber":"000000", imageUrls: ['testing']}
+    POST
+    - /mainImage must pass new object in body of the request
+    i.e {"productNumber":"000000", imageUrls: ['testing']}
+    DELETE
+    - /mainImage/:productNumber
+    deleted product number and returns wether product has been deleted
 
 
 

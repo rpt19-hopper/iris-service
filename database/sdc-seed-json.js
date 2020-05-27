@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const _ = require('lodash');
+
 
 var randomNumberGenerator = () => {
   var randomNumber = 1000 + Math.floor(Math.random() * 1000);
@@ -11,11 +11,9 @@ let data = [];
 
 var createData = (productNumber, randomNumber) => {
 	var i = 0;
-
 	while (i < 10) {
 		let imageUrls = []
     var productNumber = productNumber;
-
 
     for (var j = 0; j < randomNumber; j++) {
       var randomImageId = randomNumberGenerator();
@@ -23,6 +21,7 @@ var createData = (productNumber, randomNumber) => {
       var imageUrl = `https://i.picsum.photos/id/${randomImageId}/720/455.jpg`;
 			imageUrls.push(imageThumbnailUrl);
 			imageUrls.push(imageUrl)
+
     }
 
 		data.push({'productNumber' : productNumber,'imageUrls': imageUrls});
@@ -64,3 +63,5 @@ writeToJSON(10100000, () => {
   console.time('end seed time: ')
   console.timeLog('end seed time');
 })
+
+writeToJSON(10000, 1)

@@ -6,6 +6,7 @@ var randomNumberGenerator = () => {
   var randomNumber = 1000 + Math.floor(Math.random() * 1000);
   return randomNumber;
 }
+
 var createProductData = (productNumber) => {
   let i=0;
   let seedProductsStr = '';
@@ -77,6 +78,6 @@ var writeToCSV = (productNumber) => {
 
   productFile.end();
   imageFile.end()
-  }
+}
 
-writeToCSV(10000, 1)
+writeToCSV(10000, 1);

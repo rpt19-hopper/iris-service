@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -47,7 +48,8 @@ app.get('/mainImage/:productNumber', (req, res) => {
       throw err;
     } else {
       if (product) {
-        const mainImageThumbnail = product[1].imageUrls[0];
+        console.log(product)
+        const mainImageThumbnail = product[0].imageUrls[0];
         res.end(mainImageThumbnail);
       } else {
         res.send('No Product')

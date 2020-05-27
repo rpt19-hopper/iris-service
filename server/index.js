@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 require('newrelic');
-=======
->>>>>>> d6b42f7b1543cdf0fe4eca67eca55efaf2af1bab
 const express = require('express');
 const app = express();
 const cors = require('cors');

@@ -51,3 +51,568 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":22830,"time":"2020-05-27T02:34:46.976Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
 {"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":22830,"time":"2020-05-27T02:34:46.978Z","msg":"Agent state changed from connected to started."}
 {"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":22830,"time":"2020-05-27T02:34:47.980Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:50.262Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:50.479Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:50.624Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:50.624Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:53.092Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:53.093Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BQCPoHfiYNhKACnKeitzi55ezdmQAAgBAAAnIQEAAGlTAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:53.093Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:53.094Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26963,"time":"2020-05-27T03:06:53.097Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:53.309Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:53.494Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:53.642Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:53.642Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:56.024Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:56.024Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BU3Cs3XhASl0ACnKeitzi55ezdmQAAgBAAAnIQEAAGlfAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:56.024Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:56.026Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:56.028Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":26975,"time":"2020-05-27T03:06:57.032Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:49.028Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:49.262Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:49.448Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:49.448Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:51.874Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:51.875Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID Bb3ue3HNtbDEACnKeitzi55e0GTkAAgBAAAnIQEAAIUwAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:51.875Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:51.876Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:51.879Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34096,"time":"2020-05-29T01:25:52.884Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:00.471Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:00.786Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:00.968Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:00.968Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:03.218Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:03.218Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BXxQ4uyGhIbaACnKeitzi55e0GUgAAgBAAAnIQEAAIVOAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:03.218Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:03.219Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34126,"time":"2020-05-29T01:26:03.221Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:03.971Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:04.118Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:04.289Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:04.289Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:06.196Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:06.196Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BQQ8eLvVawu2ACnKeitzi55e0GUgAAgBAAAnIQEAAIVdAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:06.196Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:06.197Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:06.200Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34141,"time":"2020-05-29T01:26:07.204Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:30.769Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:31.007Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:31.172Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:31.172Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:33.378Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:33.379Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BRFawsjKbQQSACnKeitzi55e0GUgAAgBAAAnIQEAAIWMAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:33.379Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:33.380Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:33.382Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34188,"time":"2020-05-29T01:26:34.382Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:28.411Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:28.624Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:28.812Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:28.812Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:31.230Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:31.230Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BQkgdhizrJXuACnKeitzi55e0GVcAAgBAAAnIQEAAIWyAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:31.230Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:31.231Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:31.233Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34226,"time":"2020-05-29T01:27:32.234Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34250,"time":"2020-05-29T01:28:00.411Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34250,"time":"2020-05-29T01:28:00.618Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34250,"time":"2020-05-29T01:28:00.771Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34250,"time":"2020-05-29T01:28:00.771Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:02.106Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:02.276Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:02.417Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:02.417Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:04.352Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:04.353Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BYpQM_K6lqXoACnKeitzi55e0GWYAAgBAAAnIQEAAIXfAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:04.354Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:04.357Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:04.377Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34271,"time":"2020-05-29T01:28:05.380Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:12.956Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:13.210Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:13.379Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:13.379Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:15.695Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:15.695Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BQWQ76DMg2O_ACnKeitzi55e0GWYAAgBAAAnIQEAAIX0AgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:15.695Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:15.697Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:15.699Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34292,"time":"2020-05-29T01:28:16.700Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:44.381Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:44.587Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:44.752Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:44.752Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:47.128Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:47.128Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BbftBS-KIvQ8ACnKeitzi55e0GXUAAgBAAAnIQEAAIYZAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:47.128Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:47.130Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:47.133Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34329,"time":"2020-05-29T01:29:48.133Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:21.922Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:22.077Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:22.217Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:22.217Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:24.244Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:24.245Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BTTxFSKIip2JACnKeitzi55e0GYQAAgBAAAnIQEAAIY1AgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:24.245Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:24.246Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:24.249Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34357,"time":"2020-05-29T01:30:25.250Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:41.527Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:41.748Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:41.960Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:41.960Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:44.134Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:44.135Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BTcP9p6AYRRcACnKeitzi55e0GYQAAgBAAAnIQEAAIZMAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:44.135Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:44.136Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:44.138Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34380,"time":"2020-05-29T01:30:45.143Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:01.022Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:01.284Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:01.456Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:01.456Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:03.933Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:03.933Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BZAX9EGBHtrMACnKeitzi55e0GZMAAgBAAAnIQEAAIZoAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:03.933Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:03.935Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:03.937Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34408,"time":"2020-05-29T01:31:04.941Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:35.387Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:35.603Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:35.778Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:35.779Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:38.035Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:38.035Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BXdsUs-mEH9KACnKeitzi55e0GZMAAgBAAAnIQEAAIaBAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:38.035Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:38.037Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:38.040Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34433,"time":"2020-05-29T01:31:39.040Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:46.795Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:47.042Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:47.215Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:47.215Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:49.716Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:49.717Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BS2TPf6wyNmnACnKeitzi55e0GZMAAgBAAAnIQEAAIabAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:49.717Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:49.719Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:49.721Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34459,"time":"2020-05-29T01:31:50.725Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:24.298Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:24.459Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:24.603Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:24.603Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:26.713Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:26.713Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BQd8QPjnjigAACnKeitzi55e0GaIAAgBAAAnIQEAAIayAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:26.714Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:26.716Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:26.719Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34482,"time":"2020-05-29T01:32:27.723Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:29.053Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:29.194Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:29.356Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:29.356Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:31.380Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:31.380Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BSKx3q2RT3c2ACnKeitzi55e0GaIAAgBAAAnIQEAAIbHAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:31.380Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:31.381Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:31.384Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34503,"time":"2020-05-29T01:32:32.386Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:03.649Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:03.885Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:04.075Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:04.075Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:06.489Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:06.489Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BWIf82Xvr62LACnKeitzi55e0Ge0AAgBAAAnIQEAAIb-AgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:06.489Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:06.491Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:06.495Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34558,"time":"2020-05-29T01:37:07.498Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:37.651Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:37.841Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:37.993Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:37.994Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:41.187Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:41.187Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID Bfi5SHKCd76sACnKeitzi55e0GfwAAgBAAAnIQEAAIcfAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:41.187Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:41.189Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:41.192Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34591,"time":"2020-05-29T01:38:42.194Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:16.398Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:16.578Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:16.771Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:16.771Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:18.872Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:18.872Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BWu49DuHadDJACnKeitzi55e0GgsAAgBAAAnIQEAAIc3AgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:18.872Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:18.873Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:18.876Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34615,"time":"2020-05-29T01:39:19.877Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:25.663Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:25.939Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:26.124Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:26.124Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:28.886Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:28.886Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BVVULwe8cvayACnKeitzi55e0GhoAAgBAAAnIQEAAIdYAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:28.886Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:28.888Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:28.891Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34648,"time":"2020-05-29T01:40:29.894Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:26.361Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:26.623Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:26.799Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:26.799Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:29.224Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:29.224Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BaJbRreyhf2nACnKeitzi55e0GikAAgBAAAnIQEAAIdyAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:29.224Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:29.226Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:29.229Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34674,"time":"2020-05-29T01:41:30.229Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:30.242Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:30.448Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:30.605Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:30.605Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:32.992Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:32.993Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BSCCqiOPaHH3ACnKeitzi55e0GkcAAgBAAAnIQEAAIeoAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:32.993Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:32.994Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:32.998Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34728,"time":"2020-05-29T01:43:34.002Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:49.656Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:49.859Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:50.023Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:50.023Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:52.185Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:52.185Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BVDCXO_8Mt3GACnKeitzi55e0GkcAAgBAAAnIQEAAIfCAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:52.185Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:52.187Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:52.190Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34754,"time":"2020-05-29T01:43:53.191Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:08.232Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:08.385Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:08.535Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:08.535Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:10.584Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:10.584Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID Bdm1XgPzu_T1ACnKeitzi55e0GlYAAgBAAAnIQEAAIfYAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:10.585Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:10.586Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":34776,"time":"2020-05-29T01:44:10.588Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:20.107Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:20.353Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:20.511Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:20.511Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:23.721Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:23.722Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BbB0b-DK7aMuACnKeitzi55e0G1UAAgBAAAnIQEAAIjGAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:23.722Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:23.723Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35014,"time":"2020-05-29T02:01:23.726Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:24.015Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:24.207Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:24.363Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:24.367Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:26.775Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:26.775Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BU8_jH3uI6SAACnKeitzi55e0G1UAAgBAAAnIQEAAIjUAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:26.776Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:26.777Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:26.780Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35028,"time":"2020-05-29T02:01:27.785Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:47.277Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:47.439Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:47.650Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:47.650Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:50.692Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:50.692Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BaqlG1DPn_vmACnKeitzi55e0G2QAAgBAAAnIQEAAIkNAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:50.693Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:50.694Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:50.696Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35085,"time":"2020-05-29T02:02:51.700Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:09.084Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:09.240Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:09.380Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:09.381Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:11.930Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:11.930Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BSnJh0rFDMM6ACnKeitzi55e0G3MAAgBAAAnIQEAAIklAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:11.930Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:11.931Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:11.934Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35109,"time":"2020-05-29T02:03:12.936Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:21.874Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:22.091Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:22.252Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:22.252Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:24.846Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:24.847Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BXAUIXKInKVAACnKeitzi55e0G68AAgBAAAnIQEAAIloAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:24.847Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:24.849Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:24.852Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35176,"time":"2020-05-29T02:07:25.855Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35201,"time":"2020-05-29T02:07:43.478Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35201,"time":"2020-05-29T02:07:43.638Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35201,"time":"2020-05-29T02:07:43.808Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35201,"time":"2020-05-29T02:07:43.808Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:44.503Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:44.678Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:44.828Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:44.828Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:48.054Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:48.055Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BdsUYP6nlfZEACnKeitzi55e0G68AAgBAAAnIQEAAImIAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:48.055Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:48.056Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:48.059Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35208,"time":"2020-05-29T02:07:49.062Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:08:58.173Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:08:58.332Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:08:58.469Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:08:58.469Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:09:00.766Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:09:00.766Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BfBOPa6syVibACnKeitzi55e0G80AAgBAAAnIQEAAImnAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:09:00.767Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:09:00.768Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:09:00.770Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35239,"time":"2020-05-29T02:09:01.772Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:38.079Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:38.308Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:38.640Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:38.640Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:40.843Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:40.844Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BbZO_mz1YVkXACnKeitzi55e0G_oAAgBAAAnIQEAAInpAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:40.844Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:40.845Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:40.847Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35305,"time":"2020-05-29T02:12:41.851Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35331,"time":"2020-05-29T02:12:50.115Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35331,"time":"2020-05-29T02:12:50.344Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35331,"time":"2020-05-29T02:12:50.527Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35331,"time":"2020-05-29T02:12:50.527Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:51.348Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:51.582Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:51.727Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:51.728Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:53.458Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:53.458Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BQ6hAwe2q_IbACnKeitzi55e0G_oAAgBAAAnIQEAAIoIAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:53.458Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:53.460Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:53.462Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35336,"time":"2020-05-29T02:12:54.463Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:32.062Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:32.264Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:32.444Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:32.444Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:35.279Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:35.279Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BXCRU1atrdQKACnKeitzi55e0HBgAAgBAAAnIQEAAIovAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:35.280Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:35.281Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:35.283Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35375,"time":"2020-05-29T02:14:36.287Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:38.963Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:39.104Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:39.231Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:39.231Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:41.456Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:41.456Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BdqGE6yAS2AUACnKeitzi55e0HDYAAgBAAAnIQEAAIpXAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:41.457Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:41.458Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:41.460Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35415,"time":"2020-05-29T02:16:42.465Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:56.107Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:56.282Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:56.422Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:56.422Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:58.493Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:58.494Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BXY3vt_84--3ACnKeitzi55e0HDYAAgBAAAnIQEAAIpxAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:58.494Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:58.495Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:58.497Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35441,"time":"2020-05-29T02:16:59.501Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:49.300Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:49.469Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:49.623Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:49.624Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:53.399Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:53.400Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BUkUrMPmEwbWACnKeitzi55e0HHIAAgBAAAnIQEAAIquAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:53.400Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:53.401Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:53.405Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35502,"time":"2020-05-29T02:20:54.410Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:05.219Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:05.459Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:05.641Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:05.641Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:08.576Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:08.576Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BXmu6CGWWmrOACnKeitzi55e0HNsAAgBAAAnIQEAAIsHAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:08.576Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:08.577Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:08.580Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35591,"time":"2020-05-29T02:27:09.585Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35608,"time":"2020-05-29T02:27:11.944Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35608,"time":"2020-05-29T02:27:12.156Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35608,"time":"2020-05-29T02:27:12.302Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35608,"time":"2020-05-29T02:27:12.302Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:13.216Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:13.377Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:13.524Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:13.524Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:15.240Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:15.240Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BTeDUZf3vTfGACnKeitzi55e0HNsAAgBAAAnIQEAAIsgAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:15.240Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:15.242Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:15.244Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35616,"time":"2020-05-29T02:27:16.246Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35686,"time":"2020-05-29T02:33:12.056Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35686,"time":"2020-05-29T02:33:12.255Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35686,"time":"2020-05-29T02:33:12.420Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35686,"time":"2020-05-29T02:33:12.420Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:15.381Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:15.563Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:15.704Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:15.704Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:20.824Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:20.825Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BVLA_Zn5sCskACnKeitzi55e0HTUAAgBAAAnIQEAAIt_AgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:20.825Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:20.827Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:20.829Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35711,"time":"2020-05-29T02:33:21.834Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35727,"time":"2020-05-29T02:33:22.130Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35727,"time":"2020-05-29T02:33:22.268Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35727,"time":"2020-05-29T02:33:22.408Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35727,"time":"2020-05-29T02:33:22.409Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:23.367Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:23.543Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:23.673Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:23.673Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:25.692Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:25.693Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BcuiPi2ta9vhACnKeitzi55e0HTUAAgBAAAnIQEAAIudAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:25.693Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:25.694Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:25.697Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35741,"time":"2020-05-29T02:33:26.701Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:44.115Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:44.240Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:44.375Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:44.375Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:46.414Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:46.415Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BSKFTVaFADaoACnKeitzi55e0HWIAAgBAAAnIQEAAIvMAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:46.415Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:46.416Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:46.419Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35788,"time":"2020-05-29T02:36:47.421Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:53.312Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:53.453Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:53.577Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:53.577Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:55.231Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:55.231Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BS01W-Kiho_ZACnKeitzi55e0HWIAAgBAAAnIQEAAIviAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:55.231Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:55.233Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:55.236Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35810,"time":"2020-05-29T02:36:56.239Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:01.154Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:01.306Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:01.437Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:01.437Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:03.083Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:03.083Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BVO2ZqDYkq9ZACnKeitzi55e0HXEAAgBAAAnIQEAAIv4AgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:03.083Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:03.084Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:03.086Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35832,"time":"2020-05-29T02:37:04.087Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:12.516Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:12.684Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:12.835Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:12.835Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:16.204Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:16.205Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID Bc6tJiiG-RzfACnKeitzi55e0HZ4AAgBAAAnIQEAAIwrAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:16.205Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:16.207Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:16.209Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":35883,"time":"2020-05-29T02:40:17.211Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:30.537Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:30.738Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:30.861Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:30.861Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:33.274Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:33.275Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BV-rvz3lcLKGACnKeitzi55e0IJsAAgBAAAnIQEAAAfzAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:33.275Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:33.276Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2035,"time":"2020-05-29T03:31:33.278Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:33.722Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:34.014Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:34.271Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:34.271Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:36.152Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:36.153Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BVRCh9aV2AjcACnKeitzi55e0IJsAAgBAAAnIQEAAAf_AgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:36.153Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:36.154Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:36.156Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2047,"time":"2020-05-29T03:31:37.161Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:15.296Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:15.635Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:15.782Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:15.782Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:18.102Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:18.102Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BQ_9lTucjABHACnKeitzi55e0IOYAAgBAAAnIQEAAAoIAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:18.102Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:18.104Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:18.106Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2568,"time":"2020-05-29T03:36:19.111Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:37.999Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:38.143Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:38.286Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:38.286Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:40.189Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:40.190Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BRVGMzWgyP4BACnKeitzi55e0IOYAAgBAAAnIQEAAAojAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:40.190Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:40.191Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:40.194Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2595,"time":"2020-05-29T03:36:41.195Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2627,"time":"2020-05-29T03:36:46.059Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2627,"time":"2020-05-29T03:36:46.189Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2627,"time":"2020-05-29T03:36:46.309Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2627,"time":"2020-05-29T03:36:46.309Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:48.812Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:48.948Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:49.066Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:49.066Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:51.485Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:51.485Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BQCgP4utvzQLACnKeitzi55e0IOYAAgBAAAnIQEAAApPAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:51.485Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:51.487Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:51.490Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2639,"time":"2020-05-29T03:36:52.490Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:41.369Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:41.623Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:41.789Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:41.789Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:44.632Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:44.632Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BfNy-mqJCZ5ZACnKeitzi55e0IPUAAgBAAAnIQEAAAp_AgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:44.632Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:44.633Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:44.636Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2687,"time":"2020-05-29T03:37:45.640Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:56.868Z","msg":"Using New Relic for Node.js. Agent version: 6.8.0; Node version: v13.7.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:57.075Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:57.265Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:57.266Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:59.593Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:59.594Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BYZ6XpydMQFiACnKeitzi55e0IPUAAgBAAAnIQEAAAqYAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:59.594Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:59.595Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:37:59.598Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:38:00.602Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":40,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:44:01.517Z","msg":"Transaction WebTransaction/Expressjs/GET//product/:productNumber (564e314553c08b36) contained 2046 segments, only collecting the first 900","component":"Transaction Trace Aggregator"}
+{"v":0,"level":40,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T03:46:27.435Z","msg":"Transaction WebTransaction/Expressjs/GET//product/:productNumber (cf7b1c4b2e80c09c) contained 1960 segments, only collecting the first 900","component":"Transaction Trace Aggregator"}
+{"v":0,"level":50,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:44.605Z","msg":"Agent endpoint metric_data returned 409 status. Restarting.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:44.634Z","msg":"Restarting collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:44.637Z","msg":"Shutting down collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:44.819Z","msg":"Agent state changed from started to disconnected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:44.822Z","msg":"Disconnected from New Relic; clearing run ID BYZ6XpydMQFiACnKeitzi55e0IPUAAgBAAAnIQEAAAqYAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:44.825Z","msg":"Agent state changed from disconnected to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:53.817Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:53.817Z","msg":"Connected to collector-009.newrelic.com:443 with agent run ID BWMFs2_7uO6zACnKeitzi55e0XF8AAgBAAAnIQEAAAqYAgQrc4ucAwAFNi44LjAACUlyaXNzLU1CUAAOSW1hZ2VzIFNlcnZpY2U.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:53.818Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2738810/applications/728992668","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"Iriss-MBP","pid":2712,"time":"2020-05-29T20:31:53.824Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}

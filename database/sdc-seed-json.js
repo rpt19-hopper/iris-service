@@ -3,7 +3,7 @@ const path = require('path');
 
 
 var randomNumberGenerator = () => {
-  var randomNumber = 1000 + Math.floor(Math.random() * 1000);
+  var randomNumber = 100 + Math.floor(Math.random() * 100);
   return randomNumber;
 }
 
@@ -55,13 +55,11 @@ var writeToJSON = (productNumber, callback) => {
 }
 
 
-writeToJSON(10100000, () => {
+writeToJSON(9001000, () => {
   console.time('start seed time: ')
   console.timeLog('start seed time')
   // let dataChunked = chunk(data, 100);
   fs.writeFileSync(path.resolve('seedData.json'), JSON.stringify(data));
   console.time('end seed time: ')
   console.timeLog('end seed time');
-})
-
-writeToJSON(10000, 1)
+});

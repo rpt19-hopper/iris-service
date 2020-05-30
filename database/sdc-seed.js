@@ -3,7 +3,7 @@ const imageFile = fs.createWriteStream('/private/tmp/seedImageData.csv');
 const productFile = fs.createWriteStream('/private/tmp/seedProductData.csv');
 
 var randomNumberGenerator = () => {
-  var randomNumber = 1000 + Math.floor(Math.random() * 1000);
+  var randomNumber = 100 + Math.floor(Math.random() * 100);
   return randomNumber;
 }
 

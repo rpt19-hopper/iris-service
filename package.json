@@ -4,21 +4,28 @@
   "description": "Service Repo For FEC name: etsycloneimageservice",
   "main": "server/index.js",
   "scripts": {
-    "seed": "node ./database/sdc-seed-json.js",
+    "seed-postgres": "node --max_old_space_size=16384 ./database/seed-postgres.js",
+    "seed-mongo": "node --max_old_space_size=16384 ./database/seed-mongo.js",
     "start": "concurrently --kill-others \"npm run server-dev\" \"npm run build-dev\"",
     "server-dev": "nodemon ./server/index.js",
     "server-prod": "node ./server/index.js",
     "build-prod": "webpack --config webpack.production.config.js --display-modules",
     "build-dev": "webpack --config webpack.development.config.js -d --watch",
-    "test": "jest --detectOpenHandles -u"
+    "test": "jest --detectOpenHandles -u",
+    "create-json": "node --max_old_space_size=1826816 database/sdc-seed-json.js",
+    "create-csv": "node database/sdc-seed.js "
   },
   "dependencies": {
+    "JSONStream": "^1.3.5",
+    "test": "jest --detectOpenHandles -u",
     "compression": "^1.7.4",
     "concurrently": "^5.1.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.2.1",
-    "path": "^0.12.7"
+    "newrelic": "^6.8.0",
+    "path": "^0.12.7",
+    "pg": "^8.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",

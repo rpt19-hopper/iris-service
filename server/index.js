@@ -97,6 +97,12 @@ app.post('/mainImage', (req, res) => {
   });
 });
 
+
+app.get('/loaderio-beebe433c4adc85b9aa8e09a0b1668a4/', (req, res) => {
+  res.sendFile('loaderio-beebe433c4adc85b9aa8e09a0b1668a4.txt', {
+    root: `${rootPath}`
+  });
+})
 app.listen(port, () => {
   console.log(`App is listening on port: ${port}`);
 });

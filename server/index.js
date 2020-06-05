@@ -30,7 +30,6 @@ app.get('/listing/:productNumber', (req, res) => {
 
 app.get('/product/:productNumber', (req, res) => {
   const id = req.params['productNumber'];
-  console.log('here 33')
   getImage({'productNumber': id.toString()}, (err, product) => {
     if (err) {
       console.log(err)

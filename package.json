@@ -4,8 +4,8 @@
   "description": "Service Repo For FEC name: etsycloneimageservice",
   "main": "server/index.js",
   "scripts": {
-    "seed-postgres": "node --max_old_space_size=16384 ./database/seed-postgres.js",
-    "seed-mongo": "node --max_old_space_size=16384 ./database/seed-mongo.js",
+    "seed-postgres": "node --max_old_space_size=8192 ./database/seed-postgres.js",
+    "seed-mongo": "node --max_old_space_size=8192 ./database/seed-mongo.js",
     "start": "concurrently --kill-others \"npm run server-dev\" \"npm run build-dev\"",
     "server-dev": "nodemon ./server/index.js",
     "server-prod": "node ./server/index.js",
@@ -22,7 +22,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.2.1",
-    "newrelic": "^6.8.0",
+    "newrelic": "^6.9.0",
     "path": "^0.12.7",
     "pg": "^8.2.1"
   },

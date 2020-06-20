@@ -50,7 +50,8 @@ app.get('/mainImage/:productNumber', (req, res) => {
       throw err;
     } else {
       if (product) {
-        const mainImageThumbnail = product[1].imageUrls[0];
+        console.log('line 53', product)
+        const mainImageThumbnail = product[0].imageUrls[0];
         res.end(mainImageThumbnail);
       } else {
         res.send('No Product')
@@ -61,13 +62,14 @@ app.get('/mainImage/:productNumber', (req, res) => {
 
 app.put('/mainImage/:productNumber', (req, res) => {
   const productNumber = req.params['productNumber'].toString();
-  console.log('req.body.newImage', req.body.newImage)
   const newImage = req.body.newImage;
-  updateImage({"productNumber": productNumber}, newImage, (err, product) => {
+
+  updateImage({"productNumber": productNumber}, JSON.stringify(newImage), (err, product) => {
     if (err) {
       throw err;
     } else {
       const mainImageThumbnail = product.imageUrls[0];
+      console.log(mainImageThumbnail)
       res.end(mainImageThumbnail);
     }
   });

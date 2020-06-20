@@ -8,6 +8,8 @@ const option = {
 };
 
 var data = JSON.parse(fs.readFileSync( 'seedData.json', 'utf8'));
+var data2 = JSON.parse(fs.readFileSync( 'seedData2.json', 'utf8'));
+var data3 = JSON.parse(fs.readFileSync( 'seedData3.json', 'utf8'));
 
 const mongoURI = 'mongodb://localhost:27017/imageservice';
 
@@ -24,6 +26,27 @@ const db = mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopolog
 
   var Image = mongoose.model('images', imageSchema);
   Image.insertMany(data, (err, response) => {
+    if (err) {
+      console.log('error', err);
+    } else {
+      //console.log(response)
+      console.time('end mongo seed time: ')
+      console.timeLog('end mongo seed time: ')
+    }
+  });
+
+  Image.insertMany(data2, (err, response) => {
+    if (err) {
+      console.log('error', err);
+    } else {
+      //console.log(response)
+      console.time('end mongo seed time: ')
+      console.timeLog('end mongo seed time: ')
+      mongoose.connection.close()
+    }
+  });
+
+  Image.insertMany(data3, (err, response) => {
     if (err) {
       console.log('error', err);
     } else {

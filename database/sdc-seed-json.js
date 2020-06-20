@@ -17,8 +17,8 @@ var createData = (productNumber, randomNumber) => {
 
     for (var j = 0; j < randomNumber; j++) {
       var randomImageId = randomNumberGenerator();
-      var imageThumbnailUrl = `https://i.picsum.photos/id/${randomImageId}/1440/960.jpg`;
-      var imageUrl = `https://i.picsum.photos/id/${randomImageId}/720/455.jpg`;
+      var imageThumbnailUrl = `https://picsum.photos/id/${randomImageId}/1440/960.jpg`;
+      var imageUrl = `https://picsum.photos/id/${randomImageId}/720/455.jpg`;
 			imageUrls.push(imageThumbnailUrl);
 			imageUrls.push(imageUrl)
 
@@ -31,18 +31,6 @@ var createData = (productNumber, randomNumber) => {
 
 }
 
-
-// function chunk(array, size) {
-//   const chunked_arr = [];
-//   let copied = [...array]; // ES6 destructuring
-//   const numOfChild = Math.ceil(copied.length / size); // Round up to the nearest integer
-//   console.log(numOfChild)
-//   for (let i = 0; i < numOfChild; i++) {
-//     chunked_arr.push(JSON.stringify(copied.splice(0, size)));
-//   }
-//   return String(chunked_arr);
-// }
-
 var writeToJSON = (productNumber, callback) => {
   let i = 0;
   while (i < 100000){
@@ -54,12 +42,51 @@ var writeToJSON = (productNumber, callback) => {
   callback()
 }
 
+let recurse = (number) => {
+  writeToJSON(number, () => {
+    console.time()
+    console.timeLog()
+    // let dataChunked = chunk(data, 100);
+    if (number < 3000000) {
+      fs.appendFile(path.resolve('seedData.json'), JSON.stringify(data), (success, err) => {
+        if (err) throw err
+        data = [];
+        recurse(number+1000000)
+      });
+    }
 
-writeToJSON(9001000, () => {
-  console.time('start seed time: ')
-  console.timeLog('start seed time')
-  // let dataChunked = chunk(data, 100);
-  fs.writeFileSync(path.resolve('seedData.json'), JSON.stringify(data));
-  console.time('end seed time: ')
-  console.timeLog('end seed time');
-});
+    if (number > 3000000 && number < 6000000) {
+      fs.appendFile(path.resolve('seedData2.json'), JSON.stringify(data), (success, err) => {
+        if (err) throw err
+        data = [];
+        recurse(number+1000000)
+      });
+    }
+
+    if (number > 6000000 && number < 11000000) {
+      fs.appendFile(path.resolve('seedData3.json'), JSON.stringify(data), (success, err) => {
+        if (err) throw err
+        data = [];
+        recurse(number+1000000)
+      });
+    }
+    console.time()
+    console.timeLog()
+  });
+}
+
+recurse(100000)
+// 1999999
+// writeToJSON(1000000, () => {
+//   console.time()
+//   // let dataChunked = chunk(data, 100);
+//   console.log(data[data.length-1]);
+//   console.log(data.length)
+//   // fs.appendFile(path.resolve('seedData.json'), JSON.stringify(data));
+//   console.time()
+// });
+
+// recursion
+// CPU
+// RAMS
+// larger instance

@@ -55,85 +55,85 @@ let recurse = (number) => {
       });
     }
 
-    // if (number > 1000000 && number < 2000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData2.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 1000000 && number < 2000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData2.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 2000000 && number < 3000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData3.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 2000000 && number < 3000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData3.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 3000000 && number < 4000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData4.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 3000000 && number < 4000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData4.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 4000000 && number < 5000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData5.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 4000000 && number < 5000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData5.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 5000000 && number < 6000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData6.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 5000000 && number < 6000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData6.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 6000000 && number < 7000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData7.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 6000000 && number < 7000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData7.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 7000000 && number < 8000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData8.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 7000000 && number < 8000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData8.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 8000000 && number < 9000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData9.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 8000000 && number < 9000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData9.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 9000000 && number < 10000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData10.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 9000000 && number < 10000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData10.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
-    // if (number > 10000000 && number < 11000000) {
-    //   let str = JSON.stringify(data)
-    //   fs.writeFile(path.resolve('seedData11.json'), str, (success, err) => {
-    //     if (err) throw err
-    //     recurse(number+1000000)
-    //   });
-    // }
+    if (number > 10000000 && number < 11000000) {
+      let str = JSON.stringify(data)
+      fs.writeFile(path.resolve('seedData11.json'), str, (success, err) => {
+        if (err) throw err
+        recurse(number+1000000)
+      });
+    }
 
     console.time()
     console.timeLog()

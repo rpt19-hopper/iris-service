@@ -63,21 +63,21 @@ let recurse = (number) => {
       });
     }
 
-    if (number > 2000000 && number < 3000000) {
-      let str = JSON.stringify(data)
-      fs.writeFile(path.resolve('seedData3.json'), str, (success, err) => {
-        if (err) throw err
-        recurse(number+1000000)
-      });
-    }
+    // if (number > 2000000 && number < 3000000) {
+    //   let str = JSON.stringify(data)
+    //   fs.writeFile(path.resolve('seedData3.json'), str, (success, err) => {
+    //     if (err) throw err
+    //     recurse(number+1000000)
+    //   });
+    // }
 
-    if (number > 3000000 && number < 4000000) {
-      let str = JSON.stringify(data)
-      fs.writeFile(path.resolve('seedData4.json'), str, (success, err) => {
-        if (err) throw err
-        recurse(number+1000000)
-      });
-    }
+    // if (number > 3000000 && number < 4000000) {
+    //   let str = JSON.stringify(data)
+    //   fs.writeFile(path.resolve('seedData4.json'), str, (success, err) => {
+    //     if (err) throw err
+    //     recurse(number+1000000)
+    //   });
+    // }
 
     // if (number > 4000000 && number < 5000000) {
     //   let str = JSON.stringify(data)

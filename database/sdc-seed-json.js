@@ -55,13 +55,13 @@ let recurse = (number) => {
       });
     }
 
-    if (number > 1000000 && number < 2000000) {
-      let str = JSON.stringify(data)
-      fs.writeFile(path.resolve('seedData2.json'), str, (success, err) => {
-        if (err) throw err
-        recurse(number+1000000)
-      });
-    }
+    // if (number > 1000000 && number < 2000000) {
+    //   let str = JSON.stringify(data)
+    //   fs.writeFile(path.resolve('seedData2.json'), str, (success, err) => {
+    //     if (err) throw err
+    //     recurse(number+1000000)
+    //   });
+    // }
 
     // if (number > 2000000 && number < 3000000) {
     //   let str = JSON.stringify(data)

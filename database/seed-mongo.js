@@ -9,8 +9,8 @@ const fs = require('fs');
 
 // var data = JSON.parse(fs.readFileSync( 'seedData.json', 'utf8'));
  //var data2 = JSON.parse(fs.readFileSync( 'seedData2.json', 'utf8'));
-var data3 = JSON.parse(fs.readFileSync( 'seedData3.json', 'utf8'));
-// var data4 = JSON.parse(fs.readFileSync( 'seedData4.json', 'utf8'));
+// var data3 = JSON.parse(fs.readFileSync( 'seedData3.json', 'utf8'));
+var data4 = JSON.parse(fs.readFileSync( 'seedData4.json', 'utf8'));
 // var data5 = JSON.parse(fs.readFileSync( 'seedData5.json', 'utf8'));
 // var data6 = JSON.parse(fs.readFileSync( 'seedData6.json', 'utf8'));
 // var data7 = JSON.parse(fs.readFileSync( 'seedData7.json', 'utf8'));

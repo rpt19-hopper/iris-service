@@ -8,16 +8,16 @@ const fs = require('fs');
 // };
 
 var data = JSON.parse(fs.readFileSync( 'seedData.json', 'utf8'));
-var data2 = JSON.parse(fs.readFileSync( 'seedData2.json', 'utf8'));
-var data3 = JSON.parse(fs.readFileSync( 'seedData3.json', 'utf8'));
-var data4 = JSON.parse(fs.readFileSync( 'seedData4.json', 'utf8'));
-var data5 = JSON.parse(fs.readFileSync( 'seedData5.json', 'utf8'));
-var data6 = JSON.parse(fs.readFileSync( 'seedData6.json', 'utf8'));
-var data7 = JSON.parse(fs.readFileSync( 'seedData7.json', 'utf8'));
-var data8 = JSON.parse(fs.readFileSync( 'seedData8.json', 'utf8'));
-var data9 = JSON.parse(fs.readFileSync( 'seedData9.json', 'utf8'));
-var data10 = JSON.parse(fs.readFileSync( 'seedData10.json', 'utf8'));
-var data11 = JSON.parse(fs.readFileSync( 'seedData11.json', 'utf8'));
+// var data2 = JSON.parse(fs.readFileSync( 'seedData2.json', 'utf8'));
+// var data3 = JSON.parse(fs.readFileSync( 'seedData3.json', 'utf8'));
+// var data4 = JSON.parse(fs.readFileSync( 'seedData4.json', 'utf8'));
+// var data5 = JSON.parse(fs.readFileSync( 'seedData5.json', 'utf8'));
+// var data6 = JSON.parse(fs.readFileSync( 'seedData6.json', 'utf8'));
+// var data7 = JSON.parse(fs.readFileSync( 'seedData7.json', 'utf8'));
+// var data8 = JSON.parse(fs.readFileSync( 'seedData8.json', 'utf8'));
+// var data9 = JSON.parse(fs.readFileSync( 'seedData9.json', 'utf8'));
+// var data10 = JSON.parse(fs.readFileSync( 'seedData10.json', 'utf8'));
+// var data11 = JSON.parse(fs.readFileSync( 'seedData11.json', 'utf8'));
 
 const mongoURI = 'mongodb://localhost:27017/imageservice';
 

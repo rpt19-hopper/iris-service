@@ -7,8 +7,8 @@ const fs = require('fs');
 //   reconnectTries: 100000
 // };
 
-var data = JSON.parse(fs.readFileSync( 'seedData.json', 'utf8'));
-// var data2 = JSON.parse(fs.readFileSync( 'seedData2.json', 'utf8'));
+// var data = JSON.parse(fs.readFileSync( 'seedData.json', 'utf8'));
+ var data2 = JSON.parse(fs.readFileSync( 'seedData2.json', 'utf8'));
 // var data3 = JSON.parse(fs.readFileSync( 'seedData3.json', 'utf8'));
 // var data4 = JSON.parse(fs.readFileSync( 'seedData4.json', 'utf8'));
 // var data5 = JSON.parse(fs.readFileSync( 'seedData5.json', 'utf8'));
@@ -33,7 +33,7 @@ const db = mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopolog
   });
 
   var Image = mongoose.model('images', imageSchema);
-  Image.insertMany(data, (err, response) => {
+  Image.insertMany(data2, (err, response) => {
     if (err) {
       console.log('error', err);
     } else {

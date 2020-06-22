@@ -33,7 +33,7 @@ const db = mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopolog
   });
 
   var Image = mongoose.model('images', imageSchema);
-  Image.insertMany(data3, (err, response) => {
+  Image.insertMany(data4, (err, response) => {
     if (err) {
       console.log('error', err);
     } else {

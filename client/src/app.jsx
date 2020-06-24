@@ -38,7 +38,7 @@ class App extends React.Component {
 
    getUrls(productNumber) {
     console.log(productNumber)
-    $.ajax(`http://54.193.9.89:1234/product/${productNumber}`, {
+    $.ajax(`http://54.67.27.49:1234/product/${productNumber}`, {
       success: (imageObj) => {
         console.log(imageObj)
         const parsedObj = JSON.parse(imageObj);

@@ -5,7 +5,7 @@ const cors = require('cors');
 const path = require('path');
 const compression = require('compression');
 const {createImage, getImage, updateImage, deleteImage} = require('../database/index.js');
-const port = process.env.Port || 4567;
+const port = process.env.Port || 1234;
 const bodyParser = require('body-parser');
 
 // from localhost

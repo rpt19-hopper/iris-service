@@ -100,8 +100,8 @@ app.post('/mainImage', (req, res) => {
 });
 
 
-app.get('/loaderio-278cb94890fe96916444c2dfd0245f00/', (req, res) => {
-  res.sendFile('loaderio-278cb94890fe96916444c2dfd0245f00.txt', {
+app.get('/loaderio-e513fce48a70aa856fd497e874445b58/', (req, res) => {
+  res.sendFile('loaderio-e513fce48a70aa856fd497e874445b58.txt', {
     root: `${rootPath}`
   });
 })

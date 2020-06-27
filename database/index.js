@@ -38,11 +38,11 @@ const createImage = (product, callback) => {
 };
 
 const getImage = (product, callback) => {
-  redis.get(product, function (err, reply) {
-    if (err) callback(err,null);
-    else if (reply) //Book exists in cache
-    callback(null,JSON.parse(reply));
-    else {
+  // redis.get(product, function (err, reply) {
+  //   if (err) callback(err,null);
+  //   else if (reply) //Book exists in cache
+  //   callback(null,JSON.parse(reply));
+  //   else {
       Image.find(product, (err, result) => {
         if (err) {
           callback(err, null);
@@ -51,8 +51,8 @@ const getImage = (product, callback) => {
           callback(null, result);
         }
       });
-    }
-  });
+  //   }
+  // });
 };
 
 const updateImage = (product, newProduct, callback) => {

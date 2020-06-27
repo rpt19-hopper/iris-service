@@ -28,83 +28,83 @@ app.get('/listing/:productNumber', (req, res) => {
   });
 });
 
-// app.get('/product/:productNumber', (req, res) => {
-//   const id = req.params['productNumber'];
-//   getImage({'productNumber': id.toString()}, (err, product) => {
-//     if (err) {
-//       console.log(err)
-//       throw err;
-//     } else {
-//       const productInfo = JSON.stringify(product);
-//       console.log(productInfo)
-//       res.send(productInfo);
-//       res.end();
-//     }
-//   });
-// });
+app.get('/product/:productNumber', (req, res) => {
+  const id = req.params['productNumber'];
+  getImage({'productNumber': id.toString()}, (err, product) => {
+    if (err) {
+      console.log(err)
+      throw err;
+    } else {
+      const productInfo = JSON.stringify(product);
+      console.log(productInfo)
+      res.send(productInfo);
+      res.end();
+    }
+  });
+});
 
-// app.get('/mainImage/:productNumber', (req, res) => {
-//   const productNumber = req.params['productNumber'];
-//   getImage({"productNumber": productNumber}, (err, product) => {
-//     if (err) {
-//       throw err;
-//     } else {
-//       if (product) {
-//         console.log('line 53', product)
-//         const mainImageThumbnail = product[0].imageUrls[0];
-//         res.end(mainImageThumbnail);
-//       } else {
-//         res.send('No Product')
-//       }
-//     }
-//   });
-// });
+app.get('/mainImage/:productNumber', (req, res) => {
+  const productNumber = req.params['productNumber'];
+  getImage({"productNumber": productNumber}, (err, product) => {
+    if (err) {
+      throw err;
+    } else {
+      if (product) {
+        console.log('line 53', product)
+        const mainImageThumbnail = product[0].imageUrls[0];
+        res.end(mainImageThumbnail);
+      } else {
+        res.send('No Product')
+      }
+    }
+  });
+});
 
-// app.put('/mainImage/:productNumber', (req, res) => {
-//   const productNumber = req.params['productNumber'].toString();
-//   const newImage = req.body.newImage;
+app.put('/mainImage/:productNumber', (req, res) => {
+  const productNumber = req.params['productNumber'].toString();
+  const newImage = req.body.newImage;
 
-//   updateImage({"productNumber": productNumber}, JSON.stringify(newImage), (err, product) => {
-//     if (err) {
-//       throw err;
-//     } else {
-//       const mainImageThumbnail = product.imageUrls[0];
-//       console.log(mainImageThumbnail)
-//       res.end(mainImageThumbnail);
-//     }
-//   });
-// });
+  updateImage({"productNumber": productNumber}, JSON.stringify(newImage), (err, product) => {
+    if (err) {
+      throw err;
+    } else {
+      const mainImageThumbnail = product.imageUrls[0];
+      console.log(mainImageThumbnail)
+      res.end(mainImageThumbnail);
+    }
+  });
+});
 
-// app.delete('/mainImage/:productNumber', (req, res) => {
-//   const productNumber = req.params['productNumber'].toString();
-//   console.log(productNumber)
-//   deleteImage({'productNumber': productNumber}, (err, product) => {
-//     if (err) {
-//       throw err;
-//     } else {
-//       res.end('Product Deleted')
-//     }
-//   });
-// });
+app.delete('/mainImage/:productNumber', (req, res) => {
+  const productNumber = req.params['productNumber'].toString();
+  console.log(productNumber)
+  deleteImage({'productNumber': productNumber}, (err, product) => {
+    if (err) {
+      throw err;
+    } else {
+      res.end('Product Deleted')
+    }
+  });
+});
 
-// app.post('/mainImage', (req, res) => {
-//   let product = JSON.parse(req.body.product);
-//   createImage(product, (err, result) => {
-//     if (err) {
-//       res.send("ERROR")
-//       throw err;
-//     } else {
-//       res.end(JSON.stringify(result));
-//     }
-//   });
-// });
+app.post('/mainImage', (req, res) => {
+  let product = JSON.parse(req.body.product);
+  createImage(product, (err, result) => {
+    if (err) {
+      res.send("ERROR")
+      throw err;
+    } else {
+      res.end(JSON.stringify(result));
+    }
+  });
+});
 
 
-// app.get('/loaderio-beebe433c4adc85b9aa8e09a0b1668a4/', (req, res) => {
-//   res.sendFile('loaderio-beebe433c4adc85b9aa8e09a0b1668a4.txt', {
-//     root: `${rootPath}`
-//   });
-// })
+app.get('/loaderio-beebe433c4adc85b9aa8e09a0b1668a4/', (req, res) => {
+  res.sendFile('loaderio-beebe433c4adc85b9aa8e09a0b1668a4.txt', {
+    root: `${rootPath}`
+  });
+})
 app.listen(port, () => {
   console.log(`App is listening on port: ${port}`);
 });

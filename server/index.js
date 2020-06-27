@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 const path = require('path');
 const compression = require('compression');
-const {createImage, getImage, updateImage, deleteImage} = require('../database/index.js');
+//const {createImage, getImage, updateImage, deleteImage} = require('../database/index.js');
 const port = process.env.Port || 4567;
 const bodyParser = require('body-parser');
 
@@ -100,8 +100,8 @@ app.post('/mainImage', (req, res) => {
 });
 
 
-app.get('/loaderio-beebe433c4adc85b9aa8e09a0b1668a4/', (req, res) => {
-  res.sendFile('loaderio-beebe433c4adc85b9aa8e09a0b1668a4.txt', {
+app.get('/loaderio-278cb94890fe96916444c2dfd0245f00/', (req, res) => {
+  res.sendFile('loaderio-278cb94890fe96916444c2dfd0245f00.txt', {
     root: `${rootPath}`
   });
 })

@@ -4,6 +4,9 @@ const mongoURI = 'mongodb://localhost:27017/imageservice';
 
 const db = mongoose.connect(mongoURI, { useNewUrlParser: true });
 
+var redisClient = require('redis').createClient;
+var redis = redisClient(6379, 'localhost');
+
 db
   .then(db => console.log(`Connected to: ${mongoURI}`))
   .catch(err => {
@@ -35,12 +38,19 @@ const createImage = (product, callback) => {
 };
 
 const getImage = (product, callback) => {
-  Image.find(product, (err, result) => {
-    if (err) {
-      callback(err, null);
-    } else {
-      console.log(result)
-      callback(null, result);
+  redis.get(product, function (err, reply) {
+    if (err) callback(err,null);
+    else if (reply) //Book exists in cache
+    callback(null,JSON.parse(reply));
+    else {
+      Image.find(product, (err, result) => {
+        if (err) {
+          callback(err, null);
+        } else {
+          console.log(result)
+          callback(null, result);
+        }
+      });
     }
   });
 };

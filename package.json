@@ -6,7 +6,7 @@
   "scripts": {
     "seed-postgres": "node --max_old_space_size=16384 ./database/seed-postgres.js",
     "seed-mongo": "node --max_old_space_size=16384 ./database/seed-mongo.js",
-    "start": "concurrently --kill-others \"npm run server-prod\" \"npm run build-prod\"",
+    "start": "npm run server-prod",
     "server-dev": "nodemon ./server/index.js",
     "server-prod": "nodemon ./server/index.js",
     "build-prod": "webpack --config webpack.production.config.js --display-modules",
@@ -19,12 +19,17 @@
     "JSONStream": "^1.3.5",
     "compression": "^1.7.4",
     "concurrently": "^5.1.0",
+    "connect-redis": "^4.0.4",
     "cors": "^2.8.5",
+    "ejs": "^3.1.3",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "mongoose": "^5.2.1",
     "newrelic": "^6.9.0",
     "path": "^0.12.7",
-    "pg": "^8.2.1"
+    "pg": "^8.2.1",
+    "redis": "^3.0.2",
+    "redis-server": "^1.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
